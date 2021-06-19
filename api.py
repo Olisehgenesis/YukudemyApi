@@ -8,7 +8,7 @@ Url = Base_Url + endpoint_Url
 
 #headers
 headers = {
-    'secret-key' : 'Y2J4dWZuY3pucmtmbGF6dG1sa29vcGRz',
+    'secret-key' : str(input("Secret Key:")),
     'content-type' : 'application/x-www-form-urlencoded'
     }
 
